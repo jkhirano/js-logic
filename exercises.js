@@ -77,7 +77,6 @@ function isGreaterThan(first, second){
   }
 }
 
-
 console.log('isGreaterThan: ', isGreaterThan(5, 2));
 
 /*
@@ -92,7 +91,13 @@ console.log('isGreaterThan: ', isGreaterThan(5, 2));
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+  if (boo === true){
+    return 'true';
+  }
+}
 
+console.log('mustBeTrue: ', mustBeTrue(true));
 
 /*
  * #5
