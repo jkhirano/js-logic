@@ -111,8 +111,16 @@ console.log('mustBeTrue: ', mustBeTrue(true));
  * Console.log your result.
 */
 
+function bigBird(word){
+  if (word.length === 3){
+  return "Word to Big Bird!";
+}else{
+  return "No word to Big Bird";
+}
+}
 
-
+console.log('bigBird: ', bigBird('abc'));
+console.log('bigBird: ', bigBird('meow'));
 /*
  * #6
  * Function - isEqual
