@@ -17,8 +17,6 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
-console.log('test');
-
 /*
  * #1
  * Function - canVote
@@ -30,6 +28,15 @@ console.log('test');
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(age){
+  if (age>=18){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log('canVote: ', canVote(16));
 
 /*
  * #2
