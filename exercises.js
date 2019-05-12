@@ -134,6 +134,15 @@ console.log('bigBird: ', bigBird('meow'));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if (first === second){
+    return "You look mahvelous!";
+  }else{
+    return "I don't know who you are anymore.";
+  }
+}
+
+console.log('isEqual: ', isEqual('hello', 'gorgeous'));
 
 /*
  * #7
