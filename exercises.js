@@ -250,6 +250,16 @@ console.log('evenStevens: ', evenStevens(6));
  * Console.log your result.
 */ 
 
+function daClub(cover, age){
+  if (cover >=21 && age>=21){
+    return "Welcome to the Legends Lounge.";
+  }else{
+    return "Check E Cheese is across the street.";
+  }
+}
+
+console.log('daClub: ', daClub(25, 25));
+console.log('daClub: ', daClub(20, 25));
 
 /*
  * #12
